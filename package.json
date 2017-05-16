@@ -1,0 +1,36 @@
+{
+  "name": "@modulate/twilio",
+  "version": "0.0.0",
+  "description": "",
+  "author": {
+    "name": "Jared Hanson",
+    "email": "jaredhanson@gmail.com",
+    "url": "http://www.jaredhanson.net/"
+  },
+  "license": "MIT",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://opensource.org/licenses/MIT"
+    }
+  ],
+  "main": "./app",
+  "assembly": {
+    "namespace": "opt/twilio",
+    "components": [
+      "x/tokens/access/seal",
+      "x/tokens/access/translate"
+    ]
+  },
+  "devDependencies": {
+    "make-node": "^0.3.0",
+    "mocha": "^2.0.0",
+    "chai": "^3.0.0"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/mocha test/*.test.js"
+  },
+  "dependencies": {
+    "twilio": "^3.0.0"
+  }
+}
