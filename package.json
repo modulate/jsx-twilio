@@ -18,8 +18,8 @@
   "assembly": {
     "namespace": "opt/twilio",
     "components": [
-      "x/tokens/access/seal",
-      "x/tokens/access/translate"
+      "tokens/access/seal",
+      "tokens/access/translate"
     ]
   },
   "devDependencies": {
